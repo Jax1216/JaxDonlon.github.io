@@ -1,24 +1,10 @@
----
-layout: cv
-permalink: /cv/
-title: cv
-nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
----
-
-# Extracted CV (automatically generated)
-
-## Education
-
+Jax Donlon ♂phone+1-757-615-1705
+Bachelor’s of Science: Computer Science/inf⌢-circlePortfolio Website
+University Of Oklahoma, Norman/linkedinLinkedIn Profile
+Education
 •Bachelor of Science: Computer Science2022-2026
 University Of Oklahoma, Norman
-
-## Experience
-
+Experience
 •Software Engineer & Project ManagerMar 2025 - Present
 Candidate Tools, Oklahoma City Contract
 –Designed and developed a full-featured candidate tools website from scratch, including architecture, front-end,
@@ -63,4 +49,3 @@ Achievements & Awards
 –Selected for a competitive scholarship supporting Native American and Indigenous CS students.
 –Participate in weekly cohort meetings, professional development activities, and conferences.
 –Engage in research, service-learning projects, and community-focused initiatives.
-
