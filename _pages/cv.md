@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: Jaxzen-Donlon-CV.pdf # you can also use external links here
+description: 
 toc:
   sidebar: left
 ---
@@ -14,53 +14,4 @@ toc:
 
 ## Education
 
-•Bachelor of Science: Computer Science2022-2026
-University Of Oklahoma, Norman
-
 ## Experience
-
-•Software Engineer & Project ManagerMar 2025 - Present
-Candidate Tools, Oklahoma City Contract
-–Designed and developed a full-featured candidate tools website from scratch, including architecture, front-end,
-back-end, and deployment.
-–Contributed to production-grade applications, enhancing functionality and user experience.
-–Managed teams of up to 5 individuals, ensuring project milestones were met with efficiency and precision.
-•Software Engineer Mar 2025 - Current
-Xvector.us, Oklahoma City Contract
-–Build a Flask-based backend integrating Faster Whisper for real-time speech-to-text and TensorFlow/YAMNet for
-environmental audio classification.
-–Developed a custom offline map-tile server with a multi-threaded downloader (concurrent.futures), enabling full
-operation without internet connectivity.
-–Created an “AI Advisor” module that interfaces with local LLMs and generates automated PDF reports using
-FPDF
-–Designed a responsive, themeable frontend using vanilla JavaScript and Leaflet.js for real-time sensor tracking and
-map visualization.
-Personal Projects
-•Mos Fit
-An AI driven diet tracking web app build using React framework.
-–Utilizing the React framework for web-app front-end development.
-–Utilizing public API’s for data collection and developing internal APIs for our back-end systems.
-–Technology Used: TypeScript, React, MySQL, Git, API
-•MedTools
-Medical practice dashboard for patient data management
-–Built a secure authentication flow in React, including multi-factor login.
-–Developed a drag-and-drop patient interface using the native HTML DnD API for assigning biomarker values to
-calendar weeks.
-–Created a responsive design system following Google Material Design using scoped CSS variables.
-–Technology Used : Python, Git, React, JavaScript, Axios, HTML Drag and Drop API
-Technical Skills and Interests
-Languages: C, C++, C#, Python, JavaScript, TypeScript, HTML/CSS, Java
-Libraries: NumPy, pandas
-Web Tools: Node.js, VS Code, Git, GitHub, Postman
-Frameworks: React
-Cloud / Databases: MySQL, Google Cloud
-Coursework: Data Structures & Algorithms, Operating Systems, Object-Oriented Programming, DBMS, Software
-Engineering
-Areas of Interest: Database Engineering, Web Development, Backend Development
-Soft Skills: Problem-Solving, Critical Thinking, Presentation, Adaptability
-Achievements & Awards
-•CS-INCLUDES Aug 2022 - Present
-–Selected for a competitive scholarship supporting Native American and Indigenous CS students.
-–Participate in weekly cohort meetings, professional development activities, and conferences.
-–Engage in research, service-learning projects, and community-focused initiatives.
-
