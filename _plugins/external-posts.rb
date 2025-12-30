@@ -23,15 +23,18 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
       begin
+        xml = HTTParty.get(src['rss_url']).body
+        return if xml.nil?
         feed = Feedjira.parse(xml)
+        process_entries(site, src, feed.entries)
+      rescue OpenSSL::SSL::SSLError => e
+        puts "SSL Error fetching #{src['rss_url']} - #{e.message}. Skipping..."
+        return
       rescue StandardError => e
-        puts "Error parsing RSS feed from #{src['rss_url']} - #{e.message}"
+        puts "Error fetching/parsing RSS feed from #{src['rss_url']} - #{e.message}"
         return
       end
-      process_entries(site, src, feed.entries)
     end
 
     def process_entries(site, src, entries)
@@ -74,9 +77,17 @@ module ExternalPosts
     def fetch_from_urls(site, src)
       src['posts'].each do |post|
         puts "...fetching #{post['url']}"
-        content = fetch_content_from_url(post['url'])
-        content[:published] = parse_published_date(post['published_date'])
-        create_document(site, src['name'], post['url'], content)
+        begin
+          content = fetch_content_from_url(post['url'])
+          content[:published] = parse_published_date(post['published_date'])
+          create_document(site, src['name'], post['url'], content)
+        rescue OpenSSL::SSL::SSLError => e
+          puts "SSL Error fetching #{post['url']} - #{e.message}. Skipping..."
+          next
+        rescue StandardError => e
+          puts "Error fetching #{post['url']} - #{e.message}. Skipping..."
+          next
+        end
       end
     end
 
