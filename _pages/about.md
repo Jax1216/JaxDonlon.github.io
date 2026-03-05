@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Computer Science @ University of Oklahoma</a>. Software Engineer · Alpine Climber
 
 profile:
   align: right
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Computer Science major at the University of Oklahoma, set to graduate in Fall 2025. Throughout my time at OU, I have developed a passion for problem-solving and innovation, with a strong focus on database management, Web-Development, and back-end development. I possess a strong passion for innovation and efficient problem-solving, having translated complex academic concepts into tangible applications. My technical expertise is complemented by a hands-on approach, cultivated through rigorous coursework and direct application in real-world scenarios.
+I am a Computer Science major at the University of Oklahoma, set to graduate in Fall 2026. Throughout my time at OU, I have developed a passion for problem-solving and innovation, with a strong focus on database management, Web-Development, and back-end development. I possess a strong passion for innovation and efficient problem-solving, having translated complex academic concepts into tangible applications. My technical expertise is complemented by a hands-on approach, cultivated through rigorous coursework and direct application in real-world scenarios.
 
 My practical experience includes building systems that prioritize visually compelling interfaces and exceptional user experience. This includes leading the end-to-end development of the Candidate Tools web application from the ground up, where I focused heavily on the design and implementation of the interface while integrating critical back-end services like Google authentication. I have also contributed to focused research initiatives in smart transportation and micromobility solutions, enhancing my analytical and technical implementation skills. I am particularly interested in leveraging these skills within the field of video game development, focusing on creating dynamic and responsive user interfaces.
 

@@ -2,96 +2,56 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jaxzen W. Donlon
+    - name: Location
+      value: Norman, Oklahoma
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. in Computer Science
+      institution: University of Oklahoma, Norman, OK
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Focus areas: Database Management, Web Development, Back-End Development"
+        - Translated complex academic concepts into tangible, real-world applications.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer
+      institution: Xvector.us
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built a Flask-based backend integrating AI for real-time speech-to-text and environmental audio classification.
+        - Developed a custom offline map-tile server with a multi-threaded downloader, enabling full operation without internet connectivity.
+        - Created an "AI Advisor" module interfacing with local LLMs and generating automated PDF reports.
+        - Designed a responsive, themeable frontend using vanilla JavaScript and Leaflet.js for real-time sensor tracking.
+    - title: Software Engineer & Project Manager
+      institution: Candidate Tools
+      year: 2023 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Designed and developed a full-featured candidate tools website from scratch, handling architecture, front-end, back-end, and deployment.
+        - Managed teams of up to 5 individuals, ensuring project milestones were met.
+        - Integrated Google Authentication and other critical back-end services.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, JavaScript, TypeScript, SQL, HTML, CSS
+    - title: Frameworks & Libraries
       items:
-        - Description 1.
-        - Description 2.
+        - React, Flask, Leaflet.js, Axios
+    - title: Tools & Platforms
+      items:
+        - Git, MySQL, Docker, Google Cloud, REST APIs
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Alpine Climbing:</u> Summited notable 14ers including Elbert, Quandary, Kit Carson, Challenger Point, Greys, and Torreys.
+    - <u>Strength Sports:</u> Competitive powerlifter and bodybuilder.
